@@ -1,0 +1,13 @@
+.target{
+    background-color: #818181;
+    margin: 100px 200px 20px;
+    width: 600px;
+    height: 300px;
+    box-shadow: #d3b594 -10px -21px 25px 21px;
+}
+
+.paragraf{
+    border-left: red solid 5px;
+    margin: 5px 200px 200px;
+    padding-left: 20px;
+}
