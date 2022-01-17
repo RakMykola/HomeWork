@@ -1,6 +1,14 @@
+.conteiner{
+
+    width: 700px;
+    /*justify-content: center;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .home{
     width: 500px;
-    height: 700px;
+    height: 500px;
     background-color: #246abb;
     color: #d9d1e5;
     display: flex;
@@ -12,7 +20,7 @@
 
 .about{
     width: 500px;
-    height: 700px;
+    height: 500px;
     background-color: #246abb;
     color: #d9d1e5;
     display: flex;
@@ -45,28 +53,30 @@
 
 .bigwid{
     width: 310px;
-    height: 400px;
+    height: 300px;
     background-color: #1a477c;
     color: #7aa9c3;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 20px;
 
 }
 
 .biggwid{
     width: 310px;
-    height: 400px;
+    height: 300px;
     background-color: #1a477c;
     color: #7aa9c3;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 20px;
 }
 
 .hugwid{
     width: 310px;
-    height: 400px;
+    height: 300px;
     background-color: #1a477c;
     color: #7aa9c3;
     display: flex;

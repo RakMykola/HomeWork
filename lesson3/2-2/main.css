@@ -1,3 +1,11 @@
+
+.conteiner{
+    width: 700px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .widgets{
     height: 300px;
     background-color: #246abb;
@@ -10,33 +18,35 @@
 
 .wrapwid{
     display: flex;
-    justify-content: space-between;
     margin: 10px 5px;
+
 }
 
 .bigwid{
-    width: 310px;
+    width: 35%;
     height: 400px;
     background-color: #18467b;
     color: #7aa9c3;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 20px;
 
 }
 
 .biggwid{
-    width: 310px;
+    width: 35%;
     height: 400px;
     background-color: #18467b;
     color: #7aa9c3;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 20px;
 }
 
 .hugwid{
-    width: 310px;
+    width: 35%;
     height: 400px;
     background-color: #18467b;
     color: #7aa9c3;
