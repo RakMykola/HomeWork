@@ -1,0 +1,50 @@
+.conteiner{
+
+    width: 700px;
+    /*justify-content: center;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-col-bl{
+    background-color: #246abb;
+}
+.bg-col-dark{
+    background-color: #18467b;
+}
+.width-500{
+    width:500px ;
+}
+
+.height500{
+    height: 500px;
+}
+
+.kabobs{
+    height: 300px;
+}
+.wrap{
+    display: flex;
+}
+
+.wrapsmall{
+    display: flex;
+}
+.pic-block{
+    width: 310px;
+    height: 250px;
+}
+.mg-bot{
+    margin-bottom: 20px;
+}
+.mg-rg{
+    margin-right: 20px;
+}
+
+.text{
+    color: #d9d1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}

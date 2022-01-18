@@ -1,0 +1,40 @@
+.conteiner{
+    width: 800px;
+    margin-left: auto;
+}
+.base-color{
+    background-color: silver;
+}
+
+.height100{
+    height: 100px;
+}
+.width100{
+    width: 100px;
+}
+
+.wrapcde{
+    display: flex;
+}
+.wrapbcdef{
+    display: flex;
+}
+.b{
+    width: 309px;
+}
+.a{
+    width: 414px;
+}
+.mg-bot{
+    margin-bottom: 5px;
+}
+
+.mg-r{
+    margin-right:5px ;
+}
+.text-align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

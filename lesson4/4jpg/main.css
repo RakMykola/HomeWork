@@ -1,0 +1,44 @@
+.conteiner{
+margin-left: auto;
+   width: 900px;
+}
+.base-color{
+    background-color: silver;
+}
+.height100{
+    height: 100px;
+}
+.width100{
+    width: 100px;
+}
+
+.wrapbcd{
+    display: flex;
+}
+
+.wrapefg{
+    display: flex;
+}
+.all{
+    display: flex;
+}
+/*.allsmall{
+    display: flex;
+}*/
+.a{
+    width: 414px;
+}
+.h{
+    margin-left: 5px;
+}
+.mg-r{
+    margin-right:5px ;
+}
+.mg-bot{
+    margin-bottom: 5px;
+}
+.txt-ali{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

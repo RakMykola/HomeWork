@@ -1,0 +1,45 @@
+.conteiner{
+    width: 700px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.widgets{
+    height: 300px;
+}
+
+.contact{
+    height: 500px;
+}
+
+.small-block{
+    width: 35%;
+    height: 300px;
+}
+.bg-col{
+    background-color: #246abb;
+}
+
+.bg-col-dark{
+    background-color: #18467b;
+}
+
+.wrap{
+    display: flex;
+}
+
+.mg-bot{
+    margin-bottom: 20px;
+}
+.mg-rg{
+    margin-right: 20px;
+}
+
+.text{
+    color: #d9d1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
