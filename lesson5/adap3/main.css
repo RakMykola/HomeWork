@@ -1,0 +1,97 @@
+.conteiner{
+    width: 900px;
+    /*margin-left: auto;*/
+}
+.base-color{
+    background-color: silver;
+}
+.height100{
+    height: 100px;
+}
+.width100{
+    width: 100px;
+}
+
+.wrapbcd{
+    display: flex;
+}
+
+.wrapefg{
+    display: flex;
+}
+.all{
+    display: flex;
+}
+/*.allsmall{
+    display: flex;
+}*/
+.a{
+    width: 414px;
+}
+.h{
+    margin-left: 5px;
+}
+.mg-r{
+    margin-right:5px ;
+}
+.mg-bot{
+    margin-bottom: 5px;
+}
+.txt-ali{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 0px) and (max-width: 410px){
+    .conteiner{
+        width: auto;
+        margin: 20px;
+    }
+
+    .wrapbcd{
+        justify-content:space-between;
+
+    }
+    .wrapbcd > .b, .c, .d{
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+    .e, .f, .g{
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+    }
+
+    .wrapefg{
+        justify-content:space-between;
+    }
+
+.all{
+    display: block;
+}
+    .a{
+        width: auto;
+        height: 50px;
+        background-color: silver;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .h{
+        width: auto;
+        height: 200px;
+        background-color: silver;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-right: 0;
+    }
+}
