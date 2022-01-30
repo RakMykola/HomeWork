@@ -1,0 +1,195 @@
+.conteiner{
+    width: 700px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    width: auto;
+    height: 30px;
+    border: solid 5px black;
+    display: flex;
+    justify-content: space-between;
+}
+.silver_70_20{
+    background-color: silver;
+    width: 70px;
+    height: 20px;
+    margin: 5px;
+}
+.all{
+    display: flex;
+    width: auto;
+}
+
+.left{
+    width: 100px;
+    border-left: solid 5px black;
+    border-bottom: solid 5px black;
+    justify-content: center;
+}
+.right{
+    width:auto;
+    border-left: solid 5px black;
+    border-right: solid 5px black;
+    }
+.rig3{
+    width: 550px;
+    height: 200px;
+    background-color: silver;
+    margin: 20px;
+}
+.rig4{
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 5px black;
+    border-bottom: solid 5px black;
+}
+.silverkvad{
+
+    background-color: silver;
+    width: 100px;
+    height: 50px;
+    margin: 20px;
+}
+
+.wrap5_6{
+    display: flex;
+}
+
+.silver_kvad12{
+    background-color: silver;
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+}
+
+.rig5{
+       width: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.rig6_none{
+    display: none;
+}
+.rig6{
+    border-left: solid 5px black;
+    margin-left: 20px;
+
+}
+
+.foot{
+    padding: 10px;
+    border-top: solid 5px black;
+    border-bottom: solid 5px black;
+}
+.foot1{
+    background-color: silver;
+    margin: auto;
+    width: 300px;
+    height:20px ;
+
+}
+.foot2{
+    
+    margin: auto;
+    background-color: silver;
+    width: 50px;
+    height:20px ;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 700px){
+    .conteiner{
+        width: auto;
+    }
+    .left{
+        width: auto;
+        display: none;
+    }
+
+    .right{
+        width:auto;
+        border-left: solid 5px black;
+        border-right: solid 5px black;
+    }
+
+    .rig3{
+        width: auto;
+        height: 200px;
+        background-color: silver;
+        margin: 20px;
+    }
+.all{
+    width: 100%;
+}
+    .rig5{
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .foot1{
+        background-color: silver;
+        margin: auto;
+        width: auto;
+        height:20px ;
+
+    }
+    .header{
+        width: auto;
+    }
+
+    .rig4{
+        flex-wrap: wrap;
+        height: 400px;
+        display: flex;
+        justify-content: space-around;
+        border-top: solid 5px black;
+        border-bottom: solid 5px black;
+    }
+
+    .rig4>.silverkvad{
+        width: 200px;
+        height:150px;
+        background-color: silver;
+        margin: 20px;
+    }
+
+    .wrap5_6{
+        display: block;
+    }
+
+    .rig5>.silver_kvad12{
+        width: 250px;
+        height:150px;
+        background-color: silver;
+        margin: 20px;
+    }
+
+    .rig6{
+        display: none;
+    }
+
+
+    .rig6_none{
+        flex-wrap: wrap;
+       display: flex;
+        border-top: solid 5px black;
+    }
+    .silverkvadrig6{
+        width: 250px;
+        height:50px;
+        background-color: silver;
+        margin: 20px;
+    }
+    .silverkvadrig6_big{
+        width: 300px;
+        height:190px;
+        background-color: silver;
+        margin: 20px;
+    }
+}
